@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+.app {
+  background: url('./assets/cold.gif') center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transistion: 0.4s ease-out;
+  width: 100%;
+  height: auto;
+}
+
+.app-warm {
+  background: url('./assets/warm.gif') center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transistion: 0.4s ease-out;
+  width: 100%;
+  height: auto;
+}
+
+main {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0,0,0,0.5));
+  padding: 25px;
+}
+.search-box {
+  width: 100%;
+  margin: 0 0 75px;
+}
+.search-box .search-bar{
+  display: block;
+  width: 100%;
+  padding:15px;
+  appearance: none; 
+  border: none;
+  outline: none;
+  opacity: 0.4;
+  border-radius: none;
+  margin-top: -10px;
+  color: #313131;
+  font-size: 20px;
+  transition: 0.4s ease-out;
+  
+}
+.search-box .search-bar:focus{
+  opacity: 0.8;
+}
+.box {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0,0,0,0.5));
+  margin: 100px auto;
+  max-width: 400px;
+  padding: 20px;
+}
+.location-box .location{
+  color: #fff;
+  font-size:32px;
+  font-weight:bold;
+  text-align: center;
+  font-style: italic;
+}
+
+.location-box .date{
+  color: #fff;
+  font-size:24px;
+  font-weight:300;
+  text-align: center;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.weather-box{
+  text-align: center;
+}
+
+.weather-box .temp{
+  position: relative;
+  margin: inline-block;
+  margin: 30px auto;
+ 
+  padding: 15px 25px;
+  font-size: 64px;
+  
+  text-align: center;
+  color: #fff;
+
+}
+
+.weather-box .weather{
+  color: #fff;
+  font-size: 36px;
+  font-weight: 100;
+}
